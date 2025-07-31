@@ -9,8 +9,8 @@ epd = EPD_2in13_V4_Landscape()
 epd.Clear()
 epd.fill(0xff)
 
-ssid = "VM657945"
-password = "fourwordsalluppercase1A"
+ssid = 
+password = 
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
